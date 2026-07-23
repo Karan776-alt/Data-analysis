@@ -161,8 +161,37 @@ more likely to subscribe.
       from customer
       group by age_group
       order by Total_revenue DESC;
+  
+  ### Dashboard in Power BI
+  
+- Step 18 : Load data into Power BI Desktop
 
-- Step 18 : The report was then published to Power BI Service.
+- Step 19 : Open power query editor & in view tab under Data preview section, check "column distribution", "column quality" & "column profile" options.
+
+- Step 20 :  Also since by default, profile will be opened only for 1000 rows so we need to select "column profiling based on entire dataset".
+
+- Step 21 : In the report view, under the view tab, theme was selected.
+
+- Step 22 :  New measure was created to find total Number of customers.
+
+  Following DAX expression was written for the same,
+
+              Number of Customers = COUNT('customer_behaviour customer'[customer_id])
+
+- Step 23 : New measure was created to find Avearge of purchase Amount.
+
+  Following DAX expression was written for the same,
+
+             Avearge of Purchase Amount = AVERAGE('customer_behaviour customer'[purchased_amount])
+
+- Step 24 : New measure was created to find Avearge Review Rating .
+
+  Following DAX expression was written for the same,
+
+              Avearge Review Rating = AVERAGE('customer_behaviour customer'[review_rating])
+
+    
+- Step 25 : The report was then published to Power BI Service.
  
  
 ![Publish_Message](https://user-images.githubusercontent.com/102996550/174094520-3a845196-97e6-4d44-8760-34a64abc3e77.jpg)
