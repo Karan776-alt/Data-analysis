@@ -16,8 +16,8 @@ As a Data Analyst, my responsibility is to transform raw consumer shopping data 
 
 - Step 2 - Initial Exploration : Used df.info() to check structure and df.describe() for
 summary statistics.
-  ![Dashboard](images/Dashboard.png)
-   ![Dashboard2](images/Dashboard2.png)
+  ![Snap1](images/Snap1.png)
+   ![Snap2](images/Snap2.png)
   
   
 - Step 3 - Missing Data Handling : Checked for null values and imputed missing values in the
@@ -193,12 +193,10 @@ more likely to subscribe.
     
 - Step 25 : The report was then published to Power BI Service.
  
- 
-![Publish_Message](https://user-images.githubusercontent.com/102996550/174094520-3a845196-97e6-4d44-8760-34a64abc3e77.jpg)
 
 # Snapshot of Dashboard (Power BI Service)
 
-![dashboard_snapo](https://user-images.githubusercontent.com/102996550/174096257-11f1aae5-203d-44fc-bfca-25d37faf3237.jpg)
+
 
  
  # Report Snapshot (Power BI DESKTOP)
